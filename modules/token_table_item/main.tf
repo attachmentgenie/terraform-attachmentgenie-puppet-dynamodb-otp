@@ -1,8 +1,8 @@
 resource "time_static" "current_date" {}
 
 resource "aws_dynamodb_table_item" "token" {
-  table_name = data.aws_dynamodb_table.puppet-dynamodb-otp.name
-  hash_key   = data.aws_dynamodb_table.puppet-dynamodb-otp.hash_key
+  table_name = data.aws_dynamodb_table.puppet_dynamodb_otp.name
+  hash_key   = data.aws_dynamodb_table.puppet_dynamodb_otp.hash_key
 
   item = <<ITEM
 {

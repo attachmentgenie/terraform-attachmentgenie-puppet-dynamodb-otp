@@ -17,4 +17,5 @@ variable "token" {
 variable "ttl" {
   description = "TTL to set for otp tokens"
   default     = 300
+  type        = number
 }

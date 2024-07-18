@@ -1,3 +1,3 @@
-data "aws_dynamodb_table" "puppet-dynamodb-otp" {
+data "aws_dynamodb_table" "puppet_dynamodb_otp" {
   name = var.table_name
 }

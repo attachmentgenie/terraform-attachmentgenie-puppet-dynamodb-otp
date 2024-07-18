@@ -1,4 +1,4 @@
-module "puppet-dynamodb-otp" {
+module "puppet_dynamodb_otp" {
   source  = "terraform-aws-modules/dynamodb-table/aws"
   version = "4.0.1"
 
