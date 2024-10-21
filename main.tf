@@ -1,6 +1,6 @@
 module "puppet_dynamodb_otp" {
   source  = "terraform-aws-modules/dynamodb-table/aws"
-  version = "4.1.0"
+  version = "4.2.0"
 
   billing_mode       = "PAY_PER_REQUEST"
   name               = var.name
